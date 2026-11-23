@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated art masters (large); web versions live in public/
+/assets/paintings-raw/
+/assets/logo-candidates/
+
+# Swift
+/macos/.build/
+/macos/build/
+
+# local agent tooling
+/.claude/
+/.agents/
+skills-lock.json

@@ -12,6 +12,12 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Vendored React Bits components, kept as upstream ships them.
+    "src/components/rb/**",
+    "macos/**",
+    // Local agent tooling (not part of the repo).
+    ".claude/**",
+    ".agents/**",
   ]),
 ]);
 
