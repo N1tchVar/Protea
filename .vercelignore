@@ -1,0 +1,9 @@
+# Never upload secrets, raw art masters, the Mac app build, or local tooling.
+.env*
+.claude
+.agents
+skills-lock.json
+assets
+macos
+node_modules
+.next
